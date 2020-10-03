@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+g++ -std=c++11 -O2 -m64  restart_slicer.cpp -o restart_slicer
+g++ -std=c++11 -O2 -m64  -lmpfr -lgmp  restart_sanity_check.cpp -o restart_sanity_check
+
